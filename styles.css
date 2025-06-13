@@ -1,0 +1,147 @@
+* {
+      box-sizing: border-box;
+    }
+
+    html {
+      font-size: 16px;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ecf2ff;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .container {
+      display: flex;
+      max-width: 700px;
+      border-radius: 20px;
+      overflow: hidden;
+      background: rgb(255, 255, 255);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    }
+
+    .left {
+  background: linear-gradient(to bottom, #6743ff, #312ce9);
+  color: white;
+  padding: 30px;
+  width: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left h2 {
+  font-size: 18px;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+.score-circle {
+  margin: 0 auto 20px;
+  background: radial-gradient(circle at center, #4e21ca, #2421ca);
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.score-circle h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.score-circle span {
+  font-size: 20px;
+  opacity: 20;
+}
+
+.left h3 {
+  font-size: 22px;
+  margin: 10px 0 5px;
+}
+
+.left p {
+  font-size: 14px;
+  opacity: 0.8;
+  padding: 0 10px;
+}
+
+.right {
+  padding: 30px;
+  width: 50%;
+}
+
+.right h2 {
+  font-size: 18px;
+  color: #303b5a;
+  margin-bottom: 20px;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+    .summary-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 12px 15px;
+      border-radius: 10px;
+      margin-bottom: 15px;
+      font-weight: bold;
+    }
+
+    .summary-item:nth-child(5) {
+      background-color: #1b18d433;
+      color: #1e11ce;
+    }
+
+    .summary-item:nth-child(2) {
+      background-color: #fd98986b;
+      color: #ff5a5a;
+    }
+
+    .summary-item:nth-child(3) {
+      background-color: #eceb7c41;
+      color: #ebd613;
+    }
+
+    .summary-item:nth-child(4) {
+      background-color: #7bffb663;
+      color: #01cc88;
+    }
+
+    
+
+    .continue-button {
+      display: block;
+      width: 100%;
+      padding: 15px;
+      background-color: #132455;
+      color: rgb(255, 255, 255);
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+
+    .continue-button:hover {
+      background-color: #0b1a3b;
+    }
